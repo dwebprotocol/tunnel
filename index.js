@@ -1,5 +1,5 @@
 const tcp = require('tcp-forward')
-const network = require('@hyperswarm/network')
+const network = require('@dswarm/network')
 const pump = require('pump')
 
 exports.Local = tcp.Local
